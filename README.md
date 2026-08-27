@@ -27,7 +27,7 @@ This architecture provides greater control over the underlying servers and infra
 
 ## Serverless Architecture
 
-![Serverless Architecture](diagrams/week%203%20serverless%20architecture%20e-commerce%20-%20diagram.png)
+![Serverless Architecture](diagrams/serverless-architecture.png)
 The serverless architecture replaces the traditional web and application server tiers with managed AWS services that can respond to requests and events without requiring the same level of server management.
 
 A user first accesses the application through Amazon Route 53, which provides DNS routing. The request then reaches Amazon CloudFront, which acts as a content delivery network (CDN) and can cache content closer to users to reduce latency.
